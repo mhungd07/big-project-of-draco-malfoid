@@ -2,8 +2,7 @@ package app.qubid.common.model.user;
 
 import java.io.Serializable;
 
-public abstract class User implements Serializable {
-    private static final long serialVersionUID = 1L;
+public abstract class User {
     private final String userId;
     private String username;
     private String email;

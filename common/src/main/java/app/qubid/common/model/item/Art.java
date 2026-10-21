@@ -3,8 +3,6 @@ package app.qubid.common.model.item;
 import java.math.BigDecimal;
 
 public class Art extends Item {
-    private static final long serialVersionUID = 1L;
-
     private final String artist;
     private final int yearCreated;
 

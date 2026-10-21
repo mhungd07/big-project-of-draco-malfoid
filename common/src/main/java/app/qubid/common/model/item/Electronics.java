@@ -1,8 +1,6 @@
 package app.qubid.common.model.item;
 
 public class Electronics extends Item {
-    private static final long serialVersionUID = 1L;
-    
     private final String brand;
     private final String model;
     private int warrantyMonths;

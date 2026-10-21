@@ -3,8 +3,7 @@ package app.qubid.common.model.item;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public abstract class Item implements Serializable {
-    private static final long serialVersionUID = 1L;
+public abstract class Item {
     private final String itemId;
     private String name;
     private String description;

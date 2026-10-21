@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.math.BigDecimal;
 
-public class Auction implements  Serializable {
+public class Auction {
     private final String auctionId;
     private final Item item;
     private AuctionStatus status = AuctionStatus.PENDING;

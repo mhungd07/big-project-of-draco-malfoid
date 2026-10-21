@@ -3,8 +3,6 @@ package app.qubid.common.model.item;
 import java.math.BigDecimal;
 
 public class Vehicle extends Item {
-    private static final long serialVersionUID = 1L;
-    
     private final String brand;
     private final String model;
     private final int manufactureYear;
