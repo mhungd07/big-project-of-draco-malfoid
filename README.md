@@ -1,8 +1,8 @@
 HỆ THỐNG ĐẤU GIÁ TRỰC TUYẾN NHÓM 5
 
 ---
-[1. Class Diagram](#1-class-diagram)
-[2. Tech Stack](#2-tech-stack)
+1. [Class Diagram](#1-class-diagram)
+2. [Tech Stack](#2-tech-stack)
 
 ---
 
