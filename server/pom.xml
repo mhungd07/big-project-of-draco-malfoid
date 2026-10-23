@@ -27,7 +27,7 @@
 
     <build>
         <plugins>
-            <!-- Chạy server: mvn -pl server exec:java -->
+            <!-- Chạy server: "mvn -pl server exec:java", điểm bắt đầu ở ServerApp -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>

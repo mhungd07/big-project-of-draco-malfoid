@@ -5,7 +5,7 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- GAV coords for projects, defining names -->
+    <!-- Đặt tên cho dự án ở đây -->
     <groupId>app.qubid</groupId>
     <artifactId>auction-system</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -27,7 +27,7 @@
         <sqlite.version>3.50.3.0</sqlite.version>
     </properties>
 
-    <!-- Dependencies declarations, child modules must define the version -->
+    <!-- Pom cha khai báo các phụ thuộc, lớp con mới sử dụng -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -57,7 +57,7 @@
                 <artifactId>sqlite-jdbc</artifactId>
                 <version>${sqlite.version}</version>
             </dependency>
-            <!-- External module: server/client use the same 'common' module -->
+            <!-- Đây là module tự viết, cả server và client đều dùng common -->
             <dependency>
                 <groupId>app.qubid</groupId>
                 <artifactId>common</artifactId>
@@ -66,7 +66,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <!-- Dependencies for every child modules: everything need JUnit -->
+    <!-- Dependency khai báo hẳn, vì ở đâu cũng cần JUnit -->
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -96,7 +96,7 @@
             </plugins>
         </pluginManagement>
 
-        <!-- All these plugins run for every child modules -->
+        <!-- Plugins cho các module con -->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
