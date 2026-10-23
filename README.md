@@ -22,4 +22,4 @@ HỆ THỐNG ĐẤU GIÁ TRỰC TUYẾN NHÓM 5
 ### Yêu cầu cài đặt
 
 - **Java Development Kit (JDK)**: Phiên bản 25 trở lên ([Tải tại đây](https://www.oracle.com/java/technologies/downloads/))
-- **Công cụ quản lý mã nguồn**: Apache Maven 3.10+ ([Tải tại đây](https://maven.apache.org/download.cgi)
+- **Công cụ quản lý mã nguồn**: Apache Maven 3.10+ ([Tải tại đây](https://maven.apache.org/download.cgi))
